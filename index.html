@@ -16,10 +16,11 @@
     .frame { position: relative; width: min(100vw, 177.7778svh); aspect-ratio: 16 / 9; }
     .lace { display: block; width: 100%; height: 100%; object-fit: contain; }
     .announcement { position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none; }
+    .announcement picture { display: block; width: 78%; }
     .announcement img { display: block; width: 100%; height: auto; }
     @media (max-width: 767px) {
       .frame { width: min(100vw, 56.25svh); aspect-ratio: 9 / 16; }
-      .announcement img { width: 100%; }
+      .announcement picture { width: 76%; }
     }
   </style>
 </head>
